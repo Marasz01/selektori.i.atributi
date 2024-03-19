@@ -1,0 +1,25 @@
+[title]
+{
+    text-decoration: underline solid red;
+}
+[kakogod]{
+    text-decoration: underline red;
+}
+[title="prvi odlomak"]{
+    background-color: yellow;
+}
+[title~="odlomak"]{
+    text-transform: uppercase;
+}
+[title^="drugi"]{
+    font-size: italic;
+}
+[title|="odlomak"]{
+    font-family: 'Courier New', Courier, monospace;
+}
+[title$="odlomak"]{
+    color: blue;
+}
+[title*="odlomak"]{
+    color: darkgreen;
+}
